@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(201, 188, 188);
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  height: 60vh;
+  width: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-top: 30px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.8);
+  /* position: relative; */
+}
+.container h1 {
+  margin-bottom: 5px;
+  color: darkgreen;
+}
+
+.container form {
+  margin: 30px;
+}
+
+.container form input {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 5px;
+  width: 70%;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.container form button {
+  border: none;
+  padding: 6px 15px;
+  border-radius: 8px;
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  padding: 50px 80px;
+}
+
+.list ul {
+  position: absolute;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  height: 45%;
+  width: 80%;
+  top: 60%;
+  left: 50%;
+  border: 0.005px solid green;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.list ul li {
+  background-color: lightyellow;
+  list-style: none;
+  text-align: left;
+  padding: 7px;
+  border: 0.005px solid goldenrod;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear {
+  border: 3px solid goldenrod;
+  padding: 10px 40px;
+  border-radius: 8px;
+  background-color: white;
+  color: goldenrod;
+  cursor: pointer;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  font-size: 20px;
+  transform: translate(-50%, 0);
+  display: block;
+}
